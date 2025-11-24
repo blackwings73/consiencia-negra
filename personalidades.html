@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Consciência Negra — Personalidades</title>
+<meta name="description" content="Mini-biografias de personalidades negras brasileiras nas artes, ciência, política e esporte." />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/main.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Pular para o conteúdo</a>
+<header class="site-header" role="banner">
+  <div class="container header-inner">
+    <a class="brand" href="index.html">Consciência Negra</a>
+    <button id="menu-toggle-2" class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Abrir menu">☰</button>
+    <nav id="primary-nav" class="primary-nav" role="navigation" aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html">História</a></li>
+        <li><a href="personalidades.html" aria-current="page">Personalidades</a></li>
+        <li><a href="desafios.html">Desafios & Ações</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="container" role="main">
+  <section class="intro" aria-labelledby="intro-title">
+    <h1 id="intro-title">Personalidades e Contribuições</h1>
+    <p class="lead">Breves perfis de pessoas negras que contribuíram para a cultura, ciência, política e esporte no Brasil e no mundo.</p>
+  </section>
+
+  <section class="controls" aria-labelledby="controls-title">
+    <h2 id="controls-title" class="visually-hidden">Filtros</h2>
+    <div class="filter-bar" role="region" aria-label="Filtrar por área">
+      <label for="filter-select" class="visually-hidden">Filtrar por área</label>
+      <select id="filter-select" name="area" aria-label="Filtrar personalidades por área">
+        <option value="all">Todas</option>
+        <option value="arte">Arte</option>
+        <option value="ciencia">Ciência</option>
+        <option value="politica">Política</option>
+        <option value="esporte">Esporte</option>
+      </select>
+      <input id="search" type="search" placeholder="Pesquisar nome..." aria-label="Pesquisar personalidades">
+    </div>
+
+    <ul class="people-grid" id="people-grid">
+      <li class="person" data-area="arte" tabindex="0">
+        <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;520&quot; height=&quot;320&quot; viewBox=&quot;0 0 520 320&quot; role=&quot;img&quot; aria-label=&quot;Elza Soares&quot;&gt;
+  &lt;defs&gt;
+    &lt;linearGradient id=&quot;g&quot; x1=&quot;0&quot; x2=&quot;1&quot;&gt;&lt;stop offset=&quot;0&quot; stop-color=&quot;#ffffff&quot; stop-opacity=&quot;0.15&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#000000&quot; stop-opacity=&quot;0.08&quot;/&gt;&lt;/linearGradient&gt;
+  &lt;/defs&gt;
+  &lt;rect width=&quot;520&quot; height=&quot;320&quot; rx=&quot;12&quot; fill=&quot;#a23a3a&quot;/&gt;
+  &lt;rect width=&quot;520&quot; height=&quot;320&quot; rx=&quot;12&quot; fill=&quot;url(#g)&quot;/&gt;
+  &lt;text x=&quot;50%&quot; y=&quot;52%&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-size=&quot;128&quot; fill=&quot;#fff&quot; font-family=&quot;Verdana, Arial, sans-serif&quot;&gt;E&lt;/text&gt;
+&lt;/svg&gt;" alt="Retrato estilizado de Elza Soares" loading="lazy" width="520" height="320">
+        <div class="person-body">
+          <h3>Elza Soares (exemplo)</h3>
+          <p>Influente cantora brasileira, símbolo de resistência e inovação musical.</p>
+        </div>
+      </li>
+      <li class="person" data-area="ciencia" tabindex="0">
+        <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;520&quot; height=&quot;320&quot; viewBox=&quot;0 0 520 320&quot; role=&quot;img&quot; aria-label=&quot;Cientista&quot;&gt;
+  &lt;defs&gt;
+    &lt;linearGradient id=&quot;g&quot; x1=&quot;0&quot; x2=&quot;1&quot;&gt;&lt;stop offset=&quot;0&quot; stop-color=&quot;#ffffff&quot; stop-opacity=&quot;0.15&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#000000&quot; stop-opacity=&quot;0.08&quot;/&gt;&lt;/linearGradient&gt;
+  &lt;/defs&gt;
+  &lt;rect width=&quot;520&quot; height=&quot;320&quot; rx=&quot;12&quot; fill=&quot;#2a9d8f&quot;/&gt;
+  &lt;rect width=&quot;520&quot; height=&quot;320&quot; rx=&quot;12&quot; fill=&quot;url(#g)&quot;/&gt;
+  &lt;text x=&quot;50%&quot; y=&quot;52%&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-size=&quot;128&quot; fill=&quot;#fff&quot; font-family=&quot;Verdana, Arial, sans-serif&quot;&gt;C&lt;/text&gt;
+&lt;/svg&gt;" alt="Ilustração de cientista negra" loading="lazy" width="520" height="320">
+        <div class="person-body">
+          <h3>Adriana Silva (exemplo)</h3>
+          <p>Pesquisadora e educadora que contribuiu em áreas de tecnologia e inclusão.</p>
+        </div>
+      </li>
+      <li class="person" data-area="politica" tabindex="0">
+        <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;520&quot; height=&quot;320&quot; viewBox=&quot;0 0 520 320&quot; role=&quot;img&quot; aria-label=&quot;Marielle Franco&quot;&gt;
+  &lt;defs&gt;
+    &lt;linearGradient id=&quot;g&quot; x1=&quot;0&quot; x2=&quot;1&quot;&gt;&lt;stop offset=&quot;0&quot; stop-color=&quot;#ffffff&quot; stop-opacity=&quot;0.15&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#000000&quot; stop-opacity=&quot;0.08&quot;/&gt;&lt;/linearGradient&gt;
+  &lt;/defs&gt;
+  &lt;rect width=&quot;520&quot; height=&quot;320&quot; rx=&quot;12&quot; fill=&quot;#3b8fbd&quot;/&gt;
+  &lt;rect width=&quot;520&quot; height=&quot;320&quot; rx=&quot;12&quot; fill=&quot;url(#g)&quot;/&gt;
+  &lt;text x=&quot;50%&quot; y=&quot;52%&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-size=&quot;128&quot; fill=&quot;#fff&quot; font-family=&quot;Verdana, Arial, sans-serif&quot;&gt;M&lt;/text&gt;
+&lt;/svg&gt;" alt="Fotografia estilizada de Marielle Franco" loading="lazy" width="520" height="320">
+        <div class="person-body">
+          <h3>Marielle Franco (exemplo)</h3>
+          <p>Líder comunitária e vereadora, símbolo da defesa dos direitos humanos.</p>
+        </div>
+      </li>
+      <li class="person" data-area="esporte" tabindex="0">
+        <img src="data:image/svg+xml;utf8,&lt;svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;520&quot; height=&quot;320&quot; viewBox=&quot;0 0 520 320&quot; role=&quot;img&quot; aria-label=&quot;Atleta&quot;&gt;
+  &lt;defs&gt;
+    &lt;linearGradient id=&quot;g&quot; x1=&quot;0&quot; x2=&quot;1&quot;&gt;&lt;stop offset=&quot;0&quot; stop-color=&quot;#ffffff&quot; stop-opacity=&quot;0.15&quot;/&gt;&lt;stop offset=&quot;1&quot; stop-color=&quot;#000000&quot; stop-opacity=&quot;0.08&quot;/&gt;&lt;/linearGradient&gt;
+  &lt;/defs&gt;
+  &lt;rect width=&quot;520&quot; height=&quot;320&quot; rx=&quot;12&quot; fill=&quot;#f4a261&quot;/&gt;
+  &lt;rect width=&quot;520&quot; height=&quot;320&quot; rx=&quot;12&quot; fill=&quot;url(#g)&quot;/&gt;
+  &lt;text x=&quot;50%&quot; y=&quot;52%&quot; dominant-baseline=&quot;middle&quot; text-anchor=&quot;middle&quot; font-size=&quot;128&quot; fill=&quot;#fff&quot; font-family=&quot;Verdana, Arial, sans-serif&quot;&gt;P&lt;/text&gt;
+&lt;/svg&gt;" alt="Atleta negra em ação" loading="lazy" width="520" height="320">
+        <div class="person-body">
+          <h3>Pelé (exemplo)</h3>
+          <p>Ícone do futebol brasileiro, referência esportiva e cultural.</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+</main>
+
+<footer role="contentinfo" class="site-footer">
+  <div class="container footer-inner">
+    <p>Perfis de exemplo; consultar README para referências e uso em trabalhos.</p>
+    <nav aria-label="Rodapé">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="desafios.html">Desafios</a></li>
+      </ul>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
